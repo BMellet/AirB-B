@@ -5,7 +5,7 @@ header
 
 }
 
-#img{
+#logo{
 	width: 82px;
 	margin-left: 10px;
 	float: left;
@@ -22,11 +22,13 @@ header
 	font-size: 13px;
 	float: right;
 	display: inline-block;
-	height: inherit;
+	height: inherit;	
 }
 
 button
 {
+	vertical-align: center;
+	border-style: none;
 	background-color: white;
 	border-style: none;
 }
@@ -44,8 +46,8 @@ body
 
 h1
 {
-	font-size: calc(0.5vw + 42px) !important;
-	line-height: calc(0.7vw + 48px) !important;
+	font-size: calc(0.5vw + 42px) ;
+	line-height: calc(0.7vw + 48px) ;
 }
 
 h2
@@ -55,24 +57,25 @@ h2
 }
 
 
-
 #title
 {
 	margin-left: 15%;
 	margin-right: 15%;
-	letter-spacing: -0.8px !important;
+	letter-spacing: -0.8px ;
 }
 
 #big-title
 {
 	font-weight: 400;
-	color: #FF5A5F !important;
+	color: #FF5A5F ;
 }
 
 #sub-title
 {
 	font-weight: lighter;
 	color: #484848;
+	
+
 
 }
 
@@ -85,10 +88,53 @@ h2
 
 .exploBox
 {
-	margin-left: 4px;
-	margin-right: 4px
-	background-color: #484848;
+	
 	width: 25%;
 	display:inline-block;
+	height: 72px ;
+}
+
+.expIn
+{
+	border-radius: 3px;
+	
+	height: inherit;
+
+}
+
+.expBoxImg
+{
+	display: inline-block; 
 	height: 72px;
+	width: 96px;
+	border-bottom-left-radius: 3px;
+	border-top-left-radius: 3px;
+
+}
+
+.expImg
+{
+	display: inline-block; 
+	height: 72px;
+	width: 96px;
+	border-bottom-left-radius: 3px;
+	border-top-left-radius: 3px;
+}
+
+
+.expBoxText
+{
+	display: inline-block; 
+	height: 72px;
+	border-bottom-right-radius: 3px;
+	border-top-right-radius: 3px;
+
+}
+.expText
+{
+	display: inline-block; 
+	height: 72px;
+	color:#484848;
+	padding-left: 2px;
+	text-align: center;
 }
