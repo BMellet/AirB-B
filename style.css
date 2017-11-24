@@ -48,6 +48,12 @@ h1
 	line-height: calc(0.7vw + 48px) !important;
 }
 
+h2
+{
+	font-size: 28px;
+	font-weight: 700 !important;
+}
+
 
 
 #title
@@ -68,4 +74,21 @@ h1
 	font-weight: lighter;
 	color: #484848;
 
+}
+
+#explore
+{
+	color: #484848;
+	margin-left: 12%;
+	margin-right: 12%;
+}
+
+.exploBox
+{
+	margin-left: 4px;
+	margin-right: 4px
+	background-color: #484848;
+	width: 25%;
+	display:inline-block;
+	height: 72px;
 }
