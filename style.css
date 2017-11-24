@@ -41,7 +41,7 @@ button:hover
 
 body
 {
-	font-family: 'Roboto', sans-serif;
+	font-family: 'Roboto',sans-serif;
 }
 
 h1
@@ -53,27 +53,30 @@ h1
 h2
 {
 	font-size: 28px;
-	font-weight: 700 !important;
+	font-weight: 700 ;
 }
 
 
 #title
 {
+	font-weight: normal;
 	margin-left: 15%;
 	margin-right: 15%;
 	letter-spacing: -0.8px ;
+	text-rendering : optimizeLegibility;
 }
 
 #big-title
 {
-	font-weight: 400;
+	font-weight: 700;
 	color: #FF5A5F ;
 }
 
 #sub-title
 {
-	font-weight: lighter;
+	font-weight: normal;
 	color: #484848;
+	width: 80%;
 	
 
 
@@ -124,6 +127,7 @@ h2
 
 .expBoxText
 {
+	position: relative;
 	display: inline-block; 
 	height: 72px;
 	border-bottom-right-radius: 3px;
@@ -137,4 +141,6 @@ h2
 	color:#484848;
 	padding-left: 2px;
 	text-align: center;
+
+	
 }
