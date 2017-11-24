@@ -20,13 +20,14 @@ h1
 
 #big-title
 {
-	font-weight: 700 !important;
+	font-weight: 400;
 	color: #FF5A5F !important;
 }
 
 #sub-title
 {
-	font-weight: normal!important;
+	font-weight: lighter;
 	color: #484848;
+
 
 }
