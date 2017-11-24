@@ -22,12 +22,14 @@ header
 	font-size: 13px;
 	float: right;
 	display: inline-block;
-	height: inherit;
+	height: inherit;	
 }
+
 button
 {
 	vertical-align: center;
-	border-style: none
+	border-style: none;
+	background-color: white;
 }
 
 button:hover
@@ -66,5 +68,5 @@ h1
 {
 	font-weight: lighter;
 	color: #484848;
-
+	width: 75%;
 }
