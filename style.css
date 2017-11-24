@@ -1,3 +1,4 @@
+
 #img{
 	width: 82px;
 	margin-left: 10px;}
@@ -27,4 +28,37 @@
 	float: right;
 	margin-right: 50px;
 	margin-top: -60px;
+}
+
+body
+{
+	font-family: 'Roboto', sans-serif;
+}
+
+h1
+{
+	font-size: calc(0.5vw + 42px) !important;
+	line-height: calc(0.7vw + 48px) !important;
+}
+
+
+
+#title
+{
+	margin-left: 15%;
+	margin-right: 15%;
+	letter-spacing: -0.8px !important;
+}
+
+#big-title
+{
+	font-weight: 400;
+	color: #FF5A5F !important;
+}
+
+#sub-title
+{
+	font-weight: lighter;
+	color: #484848;
+
 }
