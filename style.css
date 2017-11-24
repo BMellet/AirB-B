@@ -1,33 +1,39 @@
+header
+{
+	padding-top: 10px;
+	height: 82px;
+}
 
 #img{
 	width: 82px;
-	margin-left: 10px;}
+	margin-left: 10px;
+	float: left;
+}
 
-.liens{
-	font-family: Circular,"Helvetica Neue",Helvetica,Arial,sans-serif;
+
+
+.top-btn
+{
+	padding-top:;
+	font-family: 'Roboto', sans-serif;
+	vertical-align: center;
+	background-color: transparent;
+	font-weight: bold;
 	font-size: 13px;
+	float: right;
+	display: inline-block;
+	height: inherit;
+}
+button
+{
+	vertical-align: center;
+	border-style: none
 }
 
-#hote{
-	float: right;
-	margin-right: 370px;
-	margin-top: -60px;}
-
-#aide{
-	float: right;
-	margin-right: 290px;
-	margin-top: -60px;}
-
-#inscription{
-	float: right;
-	margin-right: 170px;
-	margin-top: -60px;
-}
-
-#connexion{
-	float: right;
-	margin-right: 50px;
-	margin-top: -60px;
+button:hover
+{
+	border-bottom: solid 2px #484848;
+	cursor: pointer;
 }
 
 body
