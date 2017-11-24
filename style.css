@@ -1,0 +1,30 @@
+#img{
+	width: 82px;
+	margin-left: 10px;}
+
+.liens{
+	font-family: Circular,"Helvetica Neue",Helvetica,Arial,sans-serif;
+	font-size: 13px;
+}
+
+#hote{
+	float: right;
+	margin-right: 370px;
+	margin-top: -60px;}
+
+#aide{
+	float: right;
+	margin-right: 290px;
+	margin-top: -60px;}
+
+#inscription{
+	float: right;
+	margin-right: 170px;
+	margin-top: -60px;
+}
+
+#connexion{
+	float: right;
+	margin-right: 50px;
+	margin-top: -60px;
+}
