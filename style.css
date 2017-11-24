@@ -2,6 +2,7 @@ header
 {
 	padding-top: 10px;
 	height: 82px;
+
 }
 
 #img{
@@ -13,11 +14,10 @@ header
 
 
 .top-btn
-{
-	padding-top:;
+{ padding-top: 20px;
+	display: flex;
+    align-items: center;
 	font-family: 'Roboto', sans-serif;
-	vertical-align: center;
-	background-color: transparent;
 	font-weight: bold;
 	font-size: 13px;
 	float: right;
@@ -30,6 +30,7 @@ button
 	vertical-align: center;
 	border-style: none;
 	background-color: white;
+	border-style: none;
 }
 
 button:hover
