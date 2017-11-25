@@ -15,7 +15,8 @@ header
 
 
 .top-btn
-{ padding-top: 20px;
+{ 
+	padding-top: 20px;
 	display: flex;
     align-items: center;
 	font-family: 'Roboto', sans-serif;
@@ -23,13 +24,11 @@ header
 	font-size: 13px;
 	float: right;
 	display: inline-block;
-	height: inherit;	
+	height: 80px;	
 }
 
 button
 {
-	vertical-align: center;
-	border-style: none;
 	background-color: white;
 	border-style: none;
 }
@@ -86,8 +85,9 @@ h2
 #explore
 {
 	color: #484848;
-	margin-left: 12%;
+	margin-left: 8%;
 	margin-right: 12%;
+	margin-top: 5%;
 }
 
 .exploBox
@@ -101,11 +101,20 @@ h2
 .expIn
 {
 	border-radius: 3px;
-	
+	border: 1px solid #C4C4C4;
+	box-shadow: 0px 2px 4px 0px #EBEBEB;
 	height: inherit;
 
 }
 
+.expIn2
+{
+	border-radius: 3px;
+	border: 1px solid #C4C4C4;
+	box-shadow: 0px 2px 4px 0px #EBEBEB;
+	height: inherit;
+	float: right;
+}
 .expBoxImg
 {
 	display: inline-block; 
@@ -141,7 +150,8 @@ h2
 	height: 72px;
 	color:#484848;
 	padding-left: 2px;
-	text-align: center;
+	vertical-align: middle;
+	margin-left: 15px;
 
 }
 #div-de-la-searchbar
