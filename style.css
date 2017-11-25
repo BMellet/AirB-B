@@ -6,9 +6,10 @@ header
 }
 
 #logo{
-	width: 82px;
-	margin-left: 10px;
+	width: 64px;
+	margin-left: 1px;
 	float: left;
+	margin-top: -8px;
 }
 
 
