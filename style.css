@@ -6,15 +6,17 @@ header
 }
 
 #logo{
-	width: 82px;
-	margin-left: 10px;
+	width: 64px;
+	margin-left: 1px;
 	float: left;
+	margin-top: -8px;
 }
 
 
 
 .top-btn
-{ padding-top: 20px;
+{ 
+	padding-top: 20px;
 	display: flex;
     align-items: center;
 	font-family: 'Roboto', sans-serif;
@@ -22,13 +24,11 @@ header
 	font-size: 13px;
 	float: right;
 	display: inline-block;
-	height: inherit;	
+	height: 80px;	
 }
 
 button
 {
-	vertical-align: center;
-	border-style: none;
 	background-color: white;
 	border-style: none;
 }
@@ -52,8 +52,12 @@ h1
 
 h2
 {
-	font-size: 28px;
-	font-weight: 700 ;
+	/* j'ai ajouter le letter spacing pour coller plus 
+	à l'original */
+	
+	font-size: 24px;
+	font-weight: 800 ;
+	letter-spacing: -0.5px;
 }
 
 
@@ -85,26 +89,39 @@ h2
 #explore
 {
 	color: #484848;
-	margin-left: 12%;
+	margin-left: 8%;
 	margin-right: 12%;
+	margin-top: 5%;
 }
 
 .exploBox
 {
 	
-	width: 25%;
+	width: 24%;
 	display:inline-block;
 	height: 72px ;
+	/* j'ai rajouter un margin 1% pour 
+	l'espacement entre les 3 onglets */
+	margin-right: 1%;
 }
 
 .expIn
 {
 	border-radius: 3px;
-	
+	border: 1px solid #C4C4C4;
+	box-shadow: 0px 2px 4px 0px #EBEBEB;
 	height: inherit;
 
 }
 
+/*.expIn2
+{
+	border-radius: 3px;
+	border: 1px solid #C4C4C4;
+	box-shadow: 0px 2px 4px 0px #EBEBEB;
+	height: inherit;
+	float: right;
+}*/
 .expBoxImg
 {
 	display: inline-block; 
@@ -140,7 +157,9 @@ h2
 	height: 72px;
 	color:#484848;
 	padding-left: 2px;
-	text-align: center;
+	vertical-align: middle;
+	margin-left: 15px;
+	padding-bottom: 4px;
 
 }
 #div-de-la-searchbar
@@ -221,4 +240,41 @@ h2
 	text-align: center;
 	display: inline-block;
 	white-space: nowrap;
+}
+
+.expsousphoto{
+	color: #DE9C27;
+}
+
+.text{
+	max-width: 300px;
+}
+
+.prix{
+	font-size: 14px;
+}
+
+.star{
+	background-color: #008489;
+	width: 10%;
+}
+
+.velolondres{
+	width: 40%;
+}
+
+.chiffre{
+	margin-left: 60px;
+	margin-top: -26px;
+	font-size: 13px;
+}
+
+.avionla {
+	margin-left: 350px;
+	margin-top: -280px;
+}
+
+.photo{
+	max-width: 270px;
+	max-height: 270px;
 }
