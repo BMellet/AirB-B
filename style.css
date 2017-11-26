@@ -241,3 +241,40 @@ h2
 	display: inline-block;
 	white-space: nowrap;
 }
+
+.expsousphoto{
+	color: #DE9C27;
+}
+
+.text{
+	max-width: 300px;
+}
+
+.prix{
+	font-size: 14px;
+}
+
+.star{
+	background-color: #008489;
+	width: 10%;
+}
+
+.velolondres{
+	width: 40%;
+}
+
+.chiffre{
+	margin-left: 60px;
+	margin-top: -26px;
+	font-size: 13px;
+}
+
+.avionla {
+	margin-left: 350px;
+	margin-top: -280px;
+}
+
+.photo{
+	max-width: 270px;
+	max-height: 270px;
+}
