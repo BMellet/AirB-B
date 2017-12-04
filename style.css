@@ -109,6 +109,10 @@ input
 	height: 80%;
 }
 
+/*CATEGORIE EXPLORER AIRBNB*/
+
+/*CATEGORIE FOOTER*/
+
 footer
 {
 margin-left: 10%;
@@ -117,9 +121,12 @@ margin-right: 20%;
 
 .dropdown
 {
-	width: 20%;
-	margin: 10%;
-}
-/*CATEGORIE EXPLORER AIRBNB*/
+	width: 50%;
+	margin: 5%;
 
-/*CATEGORIE FOOTER*/
+}
+
+#test
+{
+	padding-right: 20%;
+}
