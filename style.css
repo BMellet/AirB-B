@@ -1,28 +1,33 @@
-
+body
+{
+	font-family: 'Roboto', sans-serif;
+}
 #menu
 {
 	 border-color: transparent;
 	 align-items: center;
+	 padding-right: 1%;
 }
 
 #logo
 {
 	height: inherit;
-	width: 60px;
+	width: 64px;
 }
+.item
+{
+	color: #484848 !important;
 
+
+}
 .item:hover
 {
 	background-color: transparent !important;
 }
-.liens
-{
-	background-color: transparent;
 
-}
 .liens:hover
 {
-	border-bottom: solid 2px grey;
+	border-bottom: solid 2px #484848;
 
 
 }
