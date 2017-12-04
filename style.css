@@ -6,12 +6,14 @@ body
 {
 	 border-color: transparent;
 	 align-items: center;
+	 padding-right: 1%;
 }
 
 #logo
 {
 	height: inherit;
 	width: 64px;
+
 	margin-left: -4px;
 	margin-top: -1px;
 }
@@ -19,19 +21,27 @@ body
 .item
 {
 	font-size: 14px;
+	color: #484848 !important;
+
 
 }
-
 .item:hover
 {
 	background-color: transparent !important;
 }
-.liens
-{
-	background-color: transparent;
 
-}
 .liens:hover
 {
-	border-bottom: solid 2px grey;
+	border-bottom: solid 2px #484848;
+}
+
+.icon
+{
+	left: 0;
+}
+
+#button1
+{
+	margin: 3px;
+	float: right;
 }
