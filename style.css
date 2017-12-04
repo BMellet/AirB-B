@@ -75,7 +75,7 @@ input
  	border-radius: 3px;
  	position: relative;
  	height: 74px; 
- 	width: 100%
+ 	width: 100%;
  	box-shadow: 0 5px 30px rgba(156, 160, 171, 0.25);
  	padding-top: 5px;
  	margin-top: 20px;
@@ -95,6 +95,7 @@ input
 .button
 {
 	height: 80%;
+	background-color: #FF5A5F!important;
 }
 
 /*CATEGORIE EXPLORER AIRBNB*/
