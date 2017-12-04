@@ -1,6 +1,8 @@
 body
 {
+
 	font-family: 'Roboto', sans-serif !important;
+
 }
 
 /*CATEGORIE BOUTONS DU HAUT*/
@@ -16,9 +18,14 @@ body
 {
 	height: inherit;
 	width: 64px;
+
+	margin-left: -4px;
+	margin-top: -1px;
 }
+
 .item
 {
+	font-size: 14px;
 	color: #484848 !important;
 }
 .item:hover
@@ -29,6 +36,7 @@ body
 .liens:hover
 {
 	border-bottom: solid 2px #484848;
+
 }
 
 /*CATEGORIE TITRES*/
@@ -50,6 +58,7 @@ h1
 .subtitle
 {
 	color: #484848;
+
 }
 
 /*CATEGORIE SEARCHBAR*/
@@ -75,7 +84,7 @@ input
  	border-radius: 3px;
  	position: relative;
  	height: 74px; 
- 	width: 100%
+ 	width: 100%;
  	box-shadow: 0 5px 30px rgba(156, 160, 171, 0.25);
  	padding-top: 5px;
  	margin-top: 20px;
@@ -92,9 +101,21 @@ input
 	top: 0;
 }
 
+#boutonsearchbar
+{
+	background-color: #FF5A5F;
+	color: #FFFFFF;
+}
+
 .button
 {
 	height: 80%;
+	background-color: #FF5A5F!important;
+}
+
+.row
+{
+text-align: left;
 }
 
 /*CATEGORIE EXPLORER AIRBNB*/
@@ -141,3 +162,60 @@ h2
 }
 
 /*CATEGORIE FOOTER*/
+#cellule
+{
+	width: 20%;
+	height: 20%;
+}
+
+.column{
+	text-align: left !important;
+}
+
+.columnimg
+{
+	margin-left: 15%;
+	margin-right: 10%;
+	padding: 5px;
+	border-radius: 10px;
+}
+
+.celluletitre
+{
+
+}
+
+.celluletext{
+	max-width: 300px;
+}
+
+.celluleprix{
+	font-size: 14px;
+}
+
+.celluleetoiles
+{
+	
+}
+
+/*CATEGORIE FOOTER*/
+
+footer
+{
+margin-left: 10%;
+margin-right: 20%;
+}
+
+#testA
+{
+	width: 20%;
+	margin: 5%;
+}
+
+#testB
+{
+	display: table;
+	width: 20%;
+	margin-left: 5%;
+}
+
