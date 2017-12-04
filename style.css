@@ -242,6 +242,12 @@ h2
 	white-space: nowrap;
 }
 
+.experiences{
+	margin-left: 15%;
+	margin-right: 15%;
+	overflow-y: hidden;
+	overflow-x: scrollbar;
+}
 .expsousphoto{
 	color: #DE9C27;
 }
@@ -259,8 +265,12 @@ h2
 	width: 10%;
 }
 
-.velolondres{
-	width: 40%;
+.Ex{
+
+	display: inline-block;
+	height: inherit;
+	margin-right: 5px;
+	width: 300px;
 }
 
 .chiffre{
@@ -278,3 +288,13 @@ h2
 	max-width: 270px;
 	max-height: 270px;
 }
+.box{
+	display: inline-block;
+	width:3150px;
+	height: 300px;
+
+
+}
+
+
+
