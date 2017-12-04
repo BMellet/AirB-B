@@ -1,6 +1,10 @@
 body
 {
+<<<<<<< HEAD
+	font-family: Circular,"Helvetica Neue",Helvetica,Arial,sans-serif;
+=======
 	font-family: 'Roboto', sans-serif !important;
+>>>>>>> c94c77d9c5c8daee8a747f775e02a722e9847f33
 }
 
 /*CATEGORIE BOUTONS DU HAUT*/
@@ -16,9 +20,14 @@ body
 {
 	height: inherit;
 	width: 64px;
+
+	margin-left: -4px;
+	margin-top: -1px;
 }
+
 .item
 {
+	font-size: 14px;
 	color: #484848 !important;
 }
 .item:hover
@@ -29,6 +38,8 @@ body
 .liens:hover
 {
 	border-bottom: solid 2px #484848;
+<<<<<<< HEAD
+=======
 }
 
 /*CATEGORIE TITRES*/
@@ -50,6 +61,7 @@ h1
 .subtitle
 {
 	color: #484848;
+>>>>>>> c94c77d9c5c8daee8a747f775e02a722e9847f33
 }
 
 /*CATEGORIE SEARCHBAR*/
@@ -101,3 +113,21 @@ input
 /*CATEGORIE EXPLORER AIRBNB*/
 
 /*CATEGORIE FOOTER*/
+
+footer
+{
+margin-left: 10%;
+margin-right: 20%;
+}
+
+.dropdown
+{
+	width: 50%;
+	margin: 5%;
+
+}
+
+#test
+{
+	padding-right: 20%;
+}
