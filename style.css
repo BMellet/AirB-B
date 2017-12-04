@@ -1,10 +1,15 @@
 body
 {
+<<<<<<< HEAD
 	font-family: Circular,"Helvetica Neue",Helvetica,Arial,sans-serif;
+=======
+	font-family: 'Roboto', sans-serif !important;
+>>>>>>> c94c77d9c5c8daee8a747f775e02a722e9847f33
 }
 
-
+/*CATEGORIE BOUTONS DU HAUT*/
 #menu
+
 {
 	 border-color: transparent;
 	 align-items: center;
@@ -24,8 +29,6 @@ body
 {
 	font-size: 14px;
 	color: #484848 !important;
-
-
 }
 .item:hover
 {
@@ -35,13 +38,38 @@ body
 .liens:hover
 {
 	border-bottom: solid 2px #484848;
+<<<<<<< HEAD
+=======
 }
+
+/*CATEGORIE TITRES*/
+
+h1
+{
+	font-size: calc(0.5vw + 42px) !important;
+	line-height: calc(0.7vw + 48px) !important;
+
+}
+
+.airbnbtitle
+{
+	font-weight: 700;
+	color: #FF5A5F;
+}
+
+
+.subtitle
+{
+	color: #484848;
+>>>>>>> c94c77d9c5c8daee8a747f775e02a722e9847f33
+}
+
+/*CATEGORIE SEARCHBAR*/
 
 .icon
 {
 	width: 80%;
 }
-
 
 input
 {
@@ -58,12 +86,11 @@ input
  	border:solid 1px rgba(156, 160, 171, 0.25);
  	border-radius: 3px;
  	position: relative;
- 	align-content: center;
- 	height: 74px;
- 	margin-right:20%; 
- 	margin-left:20%;
+ 	height: 74px; 
+ 	width: 100%
  	box-shadow: 0 5px 30px rgba(156, 160, 171, 0.25);
  	padding-top: 5px;
+ 	margin-top: 20px;
  }
 
 #bouton1
@@ -93,3 +120,6 @@ margin-right: 20%;
 	width: 20%;
 	margin: 10%;
 }
+/*CATEGORIE EXPLORER AIRBNB*/
+
+/*CATEGORIE FOOTER*/
