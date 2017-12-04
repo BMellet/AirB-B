@@ -2,6 +2,8 @@ body
 {
 	font-family: 'Roboto', sans-serif;
 }
+
+
 #menu
 {
 	 border-color: transparent;
@@ -30,4 +32,49 @@ body
 	border-bottom: solid 2px #484848;
 
 
+}
+
+.icon
+{
+	width: 80%;
+}
+
+
+input
+{
+	color: #484848;
+	border: none !important;
+}
+.placeholder
+{
+	color: #484848;
+}
+
+#searchbar
+ {
+ 	border:solid 1px rgba(156, 160, 171, 0.25);
+ 	border-radius: 3px;
+ 	position: relative;
+ 	align-content: center;
+ 	height: 74px;
+ 	margin-right:20%; 
+ 	margin-left:20%;
+ 	box-shadow: 0 5px 30px rgba(156, 160, 171, 0.25);
+ 	padding-top: 5px;
+ }
+
+#bouton1
+{
+	padding-top:12px;
+	padding-right: 10px;
+	height: 100%;
+	width: 20%;
+	position: absolute;
+	right: 0;
+	top: 0;
+}
+
+.button
+{
+	height: 80%;
 }
