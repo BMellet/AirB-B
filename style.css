@@ -1,10 +1,8 @@
 body
 {
-<<<<<<< HEAD
-	font-family: Circular,"Helvetica Neue",Helvetica,Arial,sans-serif;
-=======
+
 	font-family: 'Roboto', sans-serif !important;
->>>>>>> c94c77d9c5c8daee8a747f775e02a722e9847f33
+
 }
 
 /*CATEGORIE BOUTONS DU HAUT*/
@@ -38,8 +36,7 @@ body
 .liens:hover
 {
 	border-bottom: solid 2px #484848;
-<<<<<<< HEAD
-=======
+
 }
 
 /*CATEGORIE TITRES*/
@@ -61,7 +58,7 @@ h1
 .subtitle
 {
 	color: #484848;
->>>>>>> c94c77d9c5c8daee8a747f775e02a722e9847f33
+
 }
 
 /*CATEGORIE SEARCHBAR*/
@@ -119,14 +116,15 @@ margin-left: 10%;
 margin-right: 20%;
 }
 
-.dropdown
+#testA
 {
-	width: 50%;
+	width: 20%;
 	margin: 5%;
-
 }
 
-#test
+#testB
 {
-	padding-right: 20%;
+	display: table;
+	width: 20%;
+	margin-left: 5%;
 }
