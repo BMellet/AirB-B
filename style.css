@@ -1,15 +1,37 @@
+body
+{
+	font-family: Circular,"Helvetica Neue",Helvetica,Arial,sans-serif;
+}
 #menu
 {
-	border-color: white;
+	 border-color: transparent;
+	 align-items: center;
 }
 
 #logo
 {
 	height: inherit;
 	width: 64px;
+	margin-left: -4px;
+	margin-top: -1px;
 }
 
 .item
 {
-	border-bottom: solid 2px 0;
+	font-size: 14px;
+
+}
+
+.item:hover
+{
+	background-color: transparent !important;
+}
+.liens
+{
+	background-color: transparent;
+
+}
+.liens:hover
+{
+	border-bottom: solid 2px grey;
 }
