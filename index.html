@@ -10,18 +10,11 @@
 	<link rel="stylesheet" type="text/css" href="style.css">
 	<link href="https://fonts.googleapis.com/css?family=Roboto:300,400" rel="stylesheet"> 
 
-	<script src="app.js"  type="text/javascript"></script>
+	
 	<!-- semanticUI -->
 	<link rel="stylesheet" type="text/css" href="semantic/dist/semantic.min.css">
-	<script
-
-	  src="https://code.jquery.com/jquery-3.1.1.min.js"
-	  integrity="sha256-hVVnYaiADRTO2PzUGmuLJr8BLUSjGIZsDYGmIJLv2b8="
-	  crossorigin="anonymous">
-	  	
-	  </script>
-
-	<script src="semantic/dist/semantic.min.js"></script>
+	<link rel="stylesheet" type="text/css" href="semantic/dist/semantic.css">
+	
 
 </head>
 
@@ -69,38 +62,40 @@
 
 	</div>
 	
-	<div id="barre" >
-		<div id="searchbar" class="ui massive icon input">
- 			<input placeholder='Essayer &laquo Cahors &raquo' type="text">
-  			<i class="search icon"></i>
- 		</div>
+	
+<div id="searchbar">
+	<div class="ui massive left icon input">
+	<i class="search icon"></i>
+ 	<input placeholder="Essayez &laquo Toulouse &raquo " type="text">
 
-		<div id="button1">
-			<button class="ui red button">Rechercher</button>
-		</div>
-	</div>
+  	</div>
+  	<div id="bouton1">
+  	<button class="fluid ui red button">Rechercher</button>
+  	</div>
+	
+</div>
 
 <footer>
-	<div class="ui selection dropdown">
-  		
-  		<input name="gender" value="1" type="hidden">
-  		<i class="dropdown icon"></i>
-  		<div class="default text">
-  			Pays
-  		</div>
+	<div id="select" >
+		<select class="ui search dropdown">
+  <option value="">Français</option>
+  <option value="AL">English</option>
+  <option value="AK">Deutsch</option>
+  <option value="AZ">Polanski</option>
+  <option value="AR">Espanol</option>
 
-  		<div class="menu">
-    		<div class="item" data-value="1">
-    		Français
-    		</div>
-
-    		<div class="item" data-value="0">
-    		Anglais
-    		</div>
-  		</div>
-
+</select>
 	</div>
-
 </footer>
+<script src="app.js"  type="text/javascript"></script>
+<script
+
+	  src="https://code.jquery.com/jquery-3.1.1.min.js"
+	  integrity="sha256-hVVnYaiADRTO2PzUGmuLJr8BLUSjGIZsDYGmIJLv2b8="
+	  crossorigin="anonymous">
+	  	
+	  </script>
+
+	<script src="semantic/dist/semantic.min.js"></script>
 </body>
 </html>
