@@ -1,10 +1,26 @@
-.item hover
+#menu
 {
-
+	 border-color: transparent;
+	 align-items: center;
 }
 
+#logo
+{
+	height: inherit;
+	width: 60px;
+}
+
+.item:hover
+{
+	background-color: transparent !important;
+}
 .liens
 {
 	background-color: transparent;
+
+}
+.liens:hover
+{
 	border-bottom: solid 2px grey;
+
 }
