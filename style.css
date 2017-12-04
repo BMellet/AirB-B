@@ -103,6 +103,47 @@ input
 	height: 80%;
 }
 
+.row
+{
+text-align: left;
+}
+
 /*CATEGORIE EXPLORER AIRBNB*/
+
+#cellule
+{
+	width: 20%;
+	height: 20%;
+}
+
+.column{
+	text-align: left !important;
+}
+
+.columnimg
+{
+	margin-left: 15%;
+	margin-right: 10%;
+	padding: 5px;
+	border-radius: 10px;
+}
+
+.celluletitre
+{
+
+}
+
+.celluletext{
+	max-width: 300px;
+}
+
+.celluleprix{
+	font-size: 14px;
+}
+
+.celluleetoiles
+{
+	
+}
 
 /*CATEGORIE FOOTER*/
