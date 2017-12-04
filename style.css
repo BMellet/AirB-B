@@ -28,6 +28,22 @@ body
 .liens:hover
 {
 	border-bottom: solid 2px #484848;
+}
 
+h1
+{
+	font-size: calc(0.5vw + 42px) !important; 
+	line-height: calc(0.7vw + 48px) !important;
+	margin: 0.67em 0!important;
+}
 
+.titleairbnb
+{
+	font-weight: 700!important;
+	color: #FF5A5F;
+	letter-spacing: -0.8px!important;
+}
+.titlesoustitre
+{
+	color:#484848;
 }
