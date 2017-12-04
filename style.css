@@ -3,7 +3,9 @@ body
 	font-family: 'Roboto', sans-serif !important;
 }
 
+/*CATEGORIE BOUTONS DU HAUT*/
 #menu
+
 {
 	 border-color: transparent;
 	 align-items: center;
@@ -29,17 +31,13 @@ body
 	border-bottom: solid 2px #484848;
 }
 
-h1
-{
-	font-size: calc(0.5vw + 42px) !important; 
-	line-height: calc(0.7vw + 48px) !important;
-	margin: 0.67em 0!important;
-}
+/*CATEGORIE TITRES*/
 
 h1
 {
 	font-size: calc(0.5vw + 42px) !important;
 	line-height: calc(0.7vw + 48px) !important;
+
 }
 
 .airbnbtitle
@@ -48,22 +46,18 @@ h1
 	color: #FF5A5F;
 }
 
+
 .subtitle
 {
 	color: #484848;
 }
 
-.segment
-{
-	border-color: white !important;
-	margin-left: 20% !important;
-}
+/*CATEGORIE SEARCHBAR*/
 
 .icon
 {
 	width: 80%;
 }
-
 
 input
 {
@@ -80,12 +74,11 @@ input
  	border:solid 1px rgba(156, 160, 171, 0.25);
  	border-radius: 3px;
  	position: relative;
- 	align-content: center;
- 	height: 74px;
- 	margin-right:20%; 
- 	margin-left:20%;
+ 	height: 74px; 
+ 	width: 100%
  	box-shadow: 0 5px 30px rgba(156, 160, 171, 0.25);
  	padding-top: 5px;
+ 	margin-top: 20px;
  }
 
 #bouton1
@@ -103,3 +96,7 @@ input
 {
 	height: 80%;
 }
+
+/*CATEGORIE EXPLORER AIRBNB*/
+
+/*CATEGORIE FOOTER*/
