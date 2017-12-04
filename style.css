@@ -92,6 +92,12 @@ input
 	top: 0;
 }
 
+#boutonsearchbar
+{
+	background-color: #FF5A5F;
+	color: #FFFFFF;
+}
+
 .button
 {
 	height: 80%;
