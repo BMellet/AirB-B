@@ -3,7 +3,6 @@ body
 	font-family: 'Roboto', sans-serif;
 }
 
-
 #menu
 {
 	 border-color: transparent;
@@ -30,8 +29,29 @@ body
 .liens:hover
 {
 	border-bottom: solid 2px #484848;
+}
 
+h1
+{
+	font-size: calc(0.5vw + 42px) !important;
+	line-height: calc(0.7vw + 48px) !important;
+}
 
+.airbnbtitle
+{
+	font-weight: 700;
+	color: #FF5A5F;
+}
+
+.subtitle
+{
+	color: #484848;
+}
+
+.segment
+{
+	border-color: white !important;
+	margin-left: 20% !important;
 }
 
 .icon
