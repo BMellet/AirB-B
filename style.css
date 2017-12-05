@@ -1,6 +1,7 @@
 body
 {
 	font-family: 'Roboto', sans-serif;
+	overflow-x: hidden;
 }
 
 /*CATEGORIE BOUTONS DU HAUT*/
@@ -74,12 +75,21 @@ body
 
 /*CATEGORIE SEARCHBAR*/
 
-.searchbar
+.searchbar.container
 {
 	width: 100%;
 	background-color: transparent;
 	border-top: none !important;
 	box-shadow: 0px 0px 3px grey;
+}
+.searchbar.row
+{
+	position:relative;
+}
+
+.searchbar.col-sm
+ {
+    position:absolute;
 }
 
 .form-control:focus {
@@ -92,28 +102,28 @@ body
 
 .magnifyingglass
 {
+	float:left;
 	fill: rgb(118, 118, 118);
-	margin-top: 12px;
-	margin-bottom: 12px;
-	margin-left: 12px;
-	margin-right: -12px;
+	margin-top: 20px;
+	margin-bottom: 20px;
+	margin-left: 20px;
+	margin-right: 20px;
 }
 
 .searchzone
 {
+	float: left;
 	font-family: 'Roboto', sans-serif;
 	font-size: 19px;
 	font-weight: normal;
-	text-overflow: ellipsis;
-	width: 600px !important;
+	width: 150% !important;
 	padding: 11px;
 	padding-top: 11px;
-	padding-bottom: 11px;
-	
+	padding-bottom: 11px;	
 	margin-top: 12px;
 	margin-bottom: 12px;
+	margin-left: 15%;
 	line-height: 24px;
-	color: #484848;
 	background-color: transparent;
 	border-color: transparent;
 	border: 0px;
@@ -125,6 +135,7 @@ body
 
 .buttonsearchbar
 {
+	float:left;
 	width: 140px;
 	height: 48px;
 	background-color: #FF5A5F !important;
@@ -202,10 +213,68 @@ footer.col-sm p:hover
 	color: #484848;
 	margin-right: 20%;	
 	box-shadow: 0px 2px 4px 0px rgba(0,0,0,0.06) !important;
-
 }
 
 .col-sm-3
 {
 	padding-right: 0px !important;
+}
+
+.carou
+{
+	margin-left: 10%;
+	margin-right:15%;
+	overflow: hidden;
+}
+
+.into_carou
+{
+	position: relative;
+	background-color: grey;
+	width: 300%;
+	left: 0;
+
+}
+.item_carou
+{
+	display: inline-block;
+	margin-right: 20px;
+}
+
+
+/*CATEGORIE SECOND FOOTER*/
+
+.secondfooter
+{
+	padding-top: 20px;
+	margin-top: 30px;
+	border-top: 1px solid #D6D9CE;
+	width: 80% !important;
+	margin-left: 10% !important;
+	margin-right: 10% !important;
+	color: #767676 !important;
+}
+
+.alignleft
+{
+	background-color: transparent;
+	text-align: left;
+	display: inline-block !important;
+}
+
+
+
+.footer-link .textLink:hover
+{
+	border-bottom: solid 2px #484848;	
+}
+
+.alignright
+{
+	background-color: transparent;
+	text-align: right;
+}
+.scnd-ftr-lmnt
+{
+	display: inline-block !important;
 }
