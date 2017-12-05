@@ -155,10 +155,9 @@ body
 footer
 {
 	font-family: 'Roboto', sans-serif !important;
-	/*margin-left: 20%;
-	margin-right: 20%;*/
+	margin-left: 10%;
+	margin-right: 5%;
 }
-
 
 .testA
 {
@@ -174,8 +173,13 @@ footer
 
 .text-color
 {
-	color: grey;
+	color: #767676;
+	text-align: justify;
+	letter-spacing: 0.2px !important;
+	font-size: 14px;
 }
+
+
 .Experience
 {
 	border: solid 1px rgba(0,0,0,0.1);
@@ -189,6 +193,5 @@ footer
 .col-sm-3
 {
 	padding-right: 0px !important;
-
 
 }
