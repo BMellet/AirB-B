@@ -155,25 +155,27 @@ body
 footer
 {
 	font-family: 'Roboto', sans-serif !important;
-<<<<<<< HEAD
-	margin-left: 10%;
-	margin-right: 5%;
-}
-=======
-	/*margin-left: 20%;
-	margin-right: 20%;*/
+	border-top: 1px solid #D6D9CE;
+	border-width: 100%;
+	
 }
 
->>>>>>> cc0d234144f052a0cf3bae11a8f7d2f02817d11c
+.container-footer
+{
+	margin-top: 50px; 
+	margin-left: 10%;
+	margin-right: 5%;
+} 
 
 .testA
 {
-	width: 100%;
+	width: 200px;
 	margin: 5%;
 }
+
 .testB
 {
-	width: 100%;
+	width: 200px;
 	margin: 5%;
 	margin-top: 8px;
 }
@@ -185,12 +187,12 @@ footer
 	letter-spacing: 0.2px !important;
 	font-size: 14px;
 }
-<<<<<<< HEAD
+
 
 footer.col-sm p:hover
 {
 	border-bottom: solid 2px #484848;
-=======
+}
 .Experience
 {
 	border: solid 1px rgba(0,0,0,0.1);
@@ -204,7 +206,4 @@ footer.col-sm p:hover
 .col-sm-3
 {
 	padding-right: 0px !important;
-
-
->>>>>>> cc0d234144f052a0cf3bae11a8f7d2f02817d11c
 }
