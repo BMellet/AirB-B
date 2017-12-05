@@ -1,6 +1,7 @@
 body
 {
 	font-family: 'Roboto', sans-serif;
+	overflow-x: hidden;
 }
 
 /*CATEGORIE BOUTONS DU HAUT*/
@@ -159,6 +160,8 @@ body
 }
 
 /*CATEGORIE EXPLORER AIRBNB*/
+/*Experiences*/
+
 
 /*CATEGORIE FOOTER*/
 
@@ -216,6 +219,28 @@ footer.col-sm p:hover
 {
 	padding-right: 0px !important;
 }
+
+.carou
+{
+	margin-left: 10%;
+	margin-right:15%;
+	overflow: hidden;
+}
+
+.into_carou
+{
+	position: relative;
+	background-color: grey;
+	width: 300%;
+	left: 0;
+
+}
+.item_carou
+{
+	display: inline-block;
+	margin-right: 20px;
+}
+
 
 /*CATEGORIE SECOND FOOTER*/
 
