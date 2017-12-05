@@ -1,221 +1,43 @@
 body
 {
-
-	font-family: 'Roboto', sans-serif !important;
-
+	font-family: 'Roboto', sans-serif;
 }
-
-/*CATEGORIE BOUTONS DU HAUT*/
-#menu
-
+.container
 {
-	 border-color: transparent;
-	 align-items: center;
-	 padding-right: 1%;
+	max-width: none !important;
+	padding-left: 0 !important;
+
+
 }
 
-#logo
+.bg-white
 {
-	height: inherit;
-	width: 64px;
-
-	margin-left: -4px;
-	margin-top: -1px;
+	padding-left: 9px !important;
+	padding-bottom: 10px!important;
+	background-color: white!important;
 }
 
-.item
+.navbar-brand
 {
-	font-size: 14px;
-	color: #484848 !important;
-}
-.item:hover
-{
-	background-color: transparent !important;
+	padding-top: 2px !important;
+	padding-bottom: 0 !important;
 }
 
-.liens:hover
+.justify-content-end{
+	margin-top: 3%;
+}
+
+
+.textLink
+{
+	color:#484848!important;
+	font-size: 14px!important;
+	padding-bottom: 5px;
+}
+
+.nav-link .textLink:hover
 {
 	border-bottom: solid 2px #484848;
 
-}
-
-/*CATEGORIE TITRES*/
-
-h1
-{
-	font-size: calc(0.5vw + 42px) !important;
-	line-height: calc(0.7vw + 48px) !important;
-
-}
-
-.airbnbtitle
-{
-	font-weight: 700;
-	color: #FF5A5F;
-}
-
-
-.subtitle
-{
-	color: #484848;
-
-}
-
-/*CATEGORIE SEARCHBAR*/
-
-.icon
-{
-	width: 80%;
-}
-
-input
-{
-	color: #484848;
-	border: none !important;
-}
-.placeholder
-{
-	color: #484848;
-}
-
-#searchbar
- {
- 	border:solid 1px rgba(156, 160, 171, 0.25);
- 	border-radius: 3px;
- 	position: relative;
- 	height: 74px; 
- 	width: 100%;
- 	box-shadow: 0 5px 30px rgba(156, 160, 171, 0.25);
- 	padding-top: 5px;
- 	margin-top: 20px;
- }
-
-#bouton1
-{
-	padding-top:12px;
-	padding-right: 10px;
-	height: 100%;
-	width: 20%;
-	position: absolute;
-	right: 0;
-	top: 0;
-}
-
-#boutonsearchbar
-{
-	background-color: #FF5A5F;
-	color: #FFFFFF;
-}
-
-.button
-{
-	height: 80%;
-	background-color: #FF5A5F!important;
-}
-
-.row
-{
-text-align: left;
-}
-
-/*CATEGORIE EXPLORER AIRBNB*/
-
-h2
-{
-	color: #484848;
-}
-
-.expBoxImg
-{
-	display: inline-block; 
-	height: 72px;
-	width: 96px;
-}
-
-.expImg
-{
-	display: inline-block; 
-	height: 72px;
-	width: 96px;
-	border-bottom-left-radius: 3px;
-	border-top-left-radius: 3px;
-}
-
-.expBoxText
-{
-	position: relative;
-	display: inline-block; 
-	height: 72px;
-	border-bottom-right-radius: 3px;
-	border-top-right-radius: 3px;
-}
-
-.fourthcolumn
-{
-	border-color: transparent;	
-}
-
-#explore
-{
-	text-align: right;
-	padding-right: 3%;
-}
-
-/*CATEGORIE FOOTER*/
-#cellule
-{
-	width: 20%;
-	height: 20%;
-}
-
-.column{
-	text-align: left !important;
-}
-
-.columnimg
-{
-	margin-left: 15%;
-	margin-right: 10%;
-	padding: 5px;
-	border-radius: 10px;
-}
-
-.celluletitre
-{
-
-}
-
-.celluletext{
-	max-width: 300px;
-}
-
-.celluleprix{
-	font-size: 14px;
-}
-
-.celluleetoiles
-{
 	
 }
-
-/*CATEGORIE FOOTER*/
-
-footer
-{
-margin-left: 10%;
-margin-right: 20%;
-}
-
-#testA
-{
-	width: 20%;
-	margin: 5%;
-}
-
-#testB
-{
-	display: table;
-	width: 20%;
-	margin-left: 5%;
-}
-
