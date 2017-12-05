@@ -155,18 +155,27 @@ body
 footer
 {
 	font-family: 'Roboto', sans-serif !important;
+	border-top: 1px solid #D6D9CE;
+	border-width: 100%;
+	
+}
+
+.container-footer
+{
+	margin-top: 50px; 
 	margin-left: 10%;
 	margin-right: 5%;
-}
+} 
 
 .testA
 {
-	width: 100%;
+	width: 200px;
 	margin: 5%;
 }
+
 .testB
 {
-	width: 100%;
+	width: 200px;
 	margin: 5%;
 	margin-top: 8px;
 }
@@ -179,6 +188,10 @@ footer
 	font-size: 14px;
 }
 
+footer.col-sm p:hover
+{
+	border-bottom: solid 2px #484848;
+}
 
 .Experience
 {
@@ -193,5 +206,4 @@ footer
 .col-sm-3
 {
 	padding-right: 0px !important;
-
 }
