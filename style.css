@@ -1,6 +1,7 @@
 body
 {
 	font-family: 'Roboto', sans-serif;
+	overflow-x: hidden;
 }
 
 /*CATEGORIE BOUTONS DU HAUT*/
@@ -206,4 +207,24 @@ footer.col-sm p:hover
 .col-sm-3
 {
 	padding-right: 0px !important;
+}
+.carou
+{
+	margin-left: 10%;
+	margin-right:15%;
+	overflow: hidden;
+}
+
+.into_carou
+{
+	position: relative;
+	background-color: grey;
+	width: 300%;
+	left: 0;
+
+}
+.item_carou
+{
+	display: inline-block;
+	margin-right: 20px;
 }
