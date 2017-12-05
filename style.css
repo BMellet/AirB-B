@@ -202,20 +202,30 @@ h2
 
 footer
 {
-margin-left: 10%;
-margin-right: 20%;
+	font-family: 'Roboto', sans-serif !important;
+	/*margin-left: 20%;
+	margin-right: 20%;*/
 }
 
-#testA
+.container
 {
-	width: 20%;
+	float: right;
+max-width: none;
+}
+
+.testA
+{
+	width: 100%;
 	margin: 5%;
 }
-
-#testB
+.testB
 {
-	display: table;
-	width: 20%;
-	margin-left: 5%;
+	width: 100%;
+	margin: 5%;
+	margin-top: 8px;
 }
 
+.text-color
+{
+	color: grey;
+}
