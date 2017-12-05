@@ -10,6 +10,7 @@ body
 	margin-bottom:  40px!important;
 	max-width: none !important;
 	padding-left: 0 !important;
+	color: #484848!important;
 }
 
 .bg-white
@@ -49,6 +50,7 @@ body
 {
 	font-size: calc(0.5vw + 42px);
 	line-height: calc(0.7vw + 48px);
+	margin-bottom: 20px;
 
 }
 
@@ -61,6 +63,7 @@ body
 .secondarytitle
 {
 	color: #484848;
+	width: 80%;
 }
 
 .d-flex.align-items-start.flex-column
@@ -106,8 +109,7 @@ body
 	padding: 11px;
 	padding-top: 11px;
 	padding-bottom: 11px;
-	padding-right: 11px;
-	padding-left: 11px;
+	
 	margin-top: 12px;
 	margin-bottom: 12px;
 	line-height: 24px;
@@ -123,7 +125,7 @@ body
 
 .buttonsearchbar
 {
-	width: 125px;
+	width: 140px;
 	height: 48px;
 	background-color: #FF5A5F !important;
 	border-radius: 4px;
@@ -135,12 +137,10 @@ body
 	font-family: 'Roboto', sans-serif;
 	padding-top: 0px;
 	padding-bottom: 0px;
-	padding-right: 18px;
 	padding-left: 18px;
 	color: #FFFFFF!important;
 	margin: 12px;
-	margin-right: 12px;
-	margin-left: 12px;
+	margin-left: 24px;
 	margin-top: 12px;
 	margin-bottom: 12px;
 	text-align: center;
