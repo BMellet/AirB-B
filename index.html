@@ -1,167 +1,95 @@
-<!DOCTYPE html>
+<!doctype html>
 <html lang="en">
+  <head>
+    <title>Airbnb</title>
+    <!-- Required meta tags -->
+    <meta charset="utf-8">
+    <link href="https://fonts.googleapis.com/css?family=Roboto:300,400" rel="stylesheet">
+    <link rel="stylesheet" type="text/css" href="style.css">
+    <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
 
 
-
-<head>
-
-	<meta charset="UTF-8">
-	<title>Projet AirBnB</title>
-	<link rel="stylesheet" type="text/css" href="style.css">
-	<link href="https://fonts.googleapis.com/css?family=Roboto:300,400" rel="stylesheet"> 
-
-	
-	<!--bootstrap-->
-	<link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0-beta.2/css/bootstrap.min.css" integrity="sha384-PsH8R72JQ3SOdhVi3uxftmaW6Vc51MKb0q5P2rRUpPvrszuE4W1povHYgTpBfshb" crossorigin="anonymous">
-	<script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0-beta.2/js/bootstrap.min.js" integrity="sha384-alpBpkh1PFOepccYVYDB4do5UnbKysX5WZXm3XxPqe5iKTfUKjNkCk9SaVuEZflJ" crossorigin="anonymous"></script>
-	
-</head>
-
-<body>
-
-<!--BOUTONS DU HAUT-->
-
-	<div  id="menu" class="ui secondary menu">
-		<div class="left menu">
-		    <a class="ui item">
-		      <img id="logo" src="img/logo.png">
-		    </a>
-	 	</div>
-
-	 	<div class="liens">
+	<link href="https://fonts.googleapis.com/css?family=Roboto" rel="stylesheet">
 
 
-		  <a class="item  ">
-		    Devenir hôte
-		  </a>
+    <!-- Bootstrap CSS -->
+    <link rel="stylesheet" type="text/css" href="style.css">
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0-beta.2/css/bootstrap.min.css" integrity="sha384-PsH8R72JQ3SOdhVi3uxftmaW6Vc51MKb0q5P2rRUpPvrszuE4W1povHYgTpBfshb" crossorigin="anonymous">
+  </head>
 
-		</div>
 
-		<div  class="liens">
+	<body>
 
-		  <a class="item " >
-			Aide
-		  </a>
+<!--CATEGORIE BOUTONS DU HAUT-->
 
-		</div>
-
-		<div class="liens">
-
-		  <a class="item ">
-		   	Inscription
-		  </a>
-
-		</div>
-
-		<div class="liens">
-
-		  <a class="item ">
-		    Connexion
-		  </a>
-		  
-		</div>
-
-	</div>
+  <div class="container">
+  <div class="row">
+    <div class="col-sm-6">
+      <nav class="navbar navbar-white bg-white">
+      <a class="navbar-brand" href="#">
+        <img src="img/logo.png" width="64" height="59" alt="">
+      </a>
+</nav>
+    </div>
+    <div class="col-sm-6">
+      <ul class="nav justify-content-end">
+  <li class="nav-item">
+    <a class="nav-link" href="#"><div class="textLink">Devenir Hote</div></a>
+  </li>
+  <li class="nav-item">
+    <a class="nav-link" href="#"><div class="textLink">Aide</div></a>
+  </li>
+  <li class="nav-item">
+    <a class="nav-link" href="#"><div class="textLink">Inscription</div></a>
+  </li>
+  <li class="nav-item">
+    <a class="nav-link " href="#"><div class="textLink">Connexion</div></a>
+  </li>
+</ul>
+    </div>
+  </div>
+</div>
 
 <!--GROS TABLEAU AVEC LES TITRES ET LA SEARCHBAR-->
 
-	<div class="ui grid">
-			<div class="two wide column"></div>
-			<div class="eleven wide column" style="padding-left: 5%">
+<div class="d-flex align-items-start flex-column">
 
 <!--TITRE & SOUSTITRE-->
-				<h1>
-					<div class="airbnbtitle">
-						Airbnb
-					</div>
-						<div class="subtitle">
-						Réservez des
-					<a style="color: inherit; cursor: pointer; text-decoration: none;">logements</a>
-						uniques et vivez là-bas comme des locaux.
-						</div>
-				</h1>
+
+  <div class="title">
+    <h1 class="maintitle">Airbnb</h1>
+    <h2 class="secondarytitle">Réservez des <a href="" style="color: inherit; cursor: pointer; text-decoration: none;">logements</a> uniques et vivez là-bas comme des locaux.</h2>
+  </div>
 
 <!--SEARCHBAR-->
 
-				<div id="searchbar">
-					<div class="ui massive left icon input">
-						<i class="search icon"></i>
-					 	<input placeholder="Essayez &laquo Toulouse &raquo " type="text">
+<table class="searchbar table d-flex p-2">
+    <tr>
+      <th scope="col">
+        <svg class="magnifyingglass" viewBox="0 0 24 24" role="presentation" aria-hidden="true" focusable="false" style="height:24px;width:24px;display:block;fill:#767676"><path d="m10.4 18.2c-4.2-.6-7.2-4.5-6.6-8.8.6-4.2 4.5-7.2 8.8-6.6 4.2.6 7.2 4.5 6.6 8.8-.6 4.2-4.6 7.2-8.8 6.6m12.6 3.8-5-5c1.4-1.4 2.3-3.1 2.6-5.2.7-5.1-2.8-9.7-7.8-10.5-5-.7-9.7 2.8-10.5 7.9-.7 5.1 2.8 9.7 7.8 10.5 2.5.4 4.9-.3 6.7-1.7v.1l5 5c .3.3.8.3 1.1 0s .4-.8.1-1.1" fill-rule="evenodd"></path></svg>
+      </th>
+      <th scope="col">
+        <input class="form-control mr-sm-2 form-control-lg" type="search" placeholder="Essayez &laquo Montréal &raquo" aria-label="Search">
+      </th>
+      <th scope="col">
+        <button class="buttonsearchbar btn btn-light flex-row-reverse" type="submit">Rechercher</button>
+      </th>
+    </tr>
+</table>
 
-				  	</div>
-				  	<div id="bouton1">
-				  		<button id="boutonsearchbar" class="fluid ui button">Rechercher</button>
-				  	</div>
-
-	
-				</div>
-			</div>
-			
-	<div class="three wide column"></div>
 </div>
-
-
 
 <!--EXPLORER AIRBNB-->
 
-<div class="ui grid">
-	<div class="one wide column"></div>
-	<div class="thirteen wide column" style="padding-left: 5%">
-			<h2>Explorer Airbnb</h2>
-		<div class="ui four column grid">
-			<div class="column">
-		    	<div class="ui segment">
-		    	
-					<div class="expBoxImg">
-		      		<img class="expImg" src="img/bedroom1.jpg">
-		      		</div>
-		      		<div class="expBoxText">
-		      		<p id="explore">Logements</p>
-		      		</div>
-		    	</div>
-			</div>
-			<div class="column">
-		    	<div class="ui segment">
-		      		<img class="expImg" src="img/canoe.png">
-		      		<div class="expBoxText">
-		      		<p id="explore">Expériences</p>
-		      		</div>
-		    	</div>
-			</div>
-			<div class="column">
-		    	<div class="ui segment">
-		    		<img class="expImg" src="img/resto.png">
-		    		<div class="expBoxText">
-		    		<p id="explore">Restaurants</p>
-		    		</div>
-		    	</div>
-			</div>
-			<div class="fourthcolumn">
-			</div>
-		</div>
-	</div>
-	<div class="two wide column"></div>
-</div>
-
 <!--EXPÉRIENCES-->
-
-<div class="ui grid">
-  <div class="one wide column"></div>
-  <div class="twelve wide column" style="padding-left:5%">
-  </div>
-  <div class="three wide column"></div>
-</div>
 
 <!--LOGEMENTS-->
 
-
-<!--DÉCOUVREZ COMMENT TRAVAILLER PLUS POUR GAGNER PLUS-->
+<!--PUBLICITÉ (apparement apparait aléatoirement)-->
 
 <!--DESTINATIONS À LA UNE-->
 
 <!--EXPÉRIENCES : NEW YORK-->
-
-
 
 <!--EXPÉRIENCES : BARCELONE-->
 
@@ -181,8 +109,8 @@
 
 <!--EXPÉRIENCES : ROME-->
 
-
 <!--FOOTER-->
+
 
 <footer>
 	<div class="container">
@@ -253,4 +181,12 @@
 
 	<script src="semantic/dist/semantic.min.js"></script>
 </body>
+
+    <!-- Optional JavaScript -->
+    <!-- jQuery first, then Popper.js, then Bootstrap JS -->
+    <script src="https://code.jquery.com/jquery-3.2.1.slim.min.js" integrity="sha384-KJ3o2DKtIkvYIK3UENzmM7KCkRr/rE9/Qpg6aAZGJwFDMVNA/GpGFF93hXpG5KkN" crossorigin="anonymous"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.12.3/umd/popper.min.js" integrity="sha384-vFJXuSJphROIrBnz7yo7oB41mKfc8JzQZiCq4NCceLEaO4IHwicKwpJf9c9IpFgh" crossorigin="anonymous"></script>
+    <script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0-beta.2/js/bootstrap.min.js" integrity="sha384-alpBpkh1PFOepccYVYDB4do5UnbKysX5WZXm3XxPqe5iKTfUKjNkCk9SaVuEZflJ" crossorigin="anonymous"></script>
+  </body>
+
 </html>
