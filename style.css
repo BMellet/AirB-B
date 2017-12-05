@@ -1,11 +1,45 @@
 body
 {
-
 	font-family: 'Roboto', sans-serif;
-
 }
 
 /*CATEGORIE BOUTONS DU HAUT*/
+
+.container
+{
+	max-width: none !important;
+	padding-left: 0 !important;
+}
+
+.bg-white
+{
+	padding-left: 9px !important;
+	padding-bottom: 10px!important;
+	background-color: white!important;
+}
+
+.navbar-brand
+{
+	padding-top: 2px !important;
+	padding-bottom: 0 !important;
+}
+
+.justify-content-end{
+	margin-top: 3%;
+}
+
+
+.textLink
+{
+	color:#484848!important;
+	font-size: 14px!important;
+	padding-bottom: 5px;
+}
+
+.nav-link .textLink:hover
+{
+	border-bottom: solid 2px #484848;	
+}
 
 /*CATEGORIE TITRES*/
 
@@ -17,18 +51,14 @@ body
 }
 
 .maintitle
-{
-	font-weight: 700;
-	color: #FF5A5F;
+	font-family: 'Roboto', sans-serif;
+	color: #FF5A5F ;
 }
-
 
 .secondarytitle
 {
 	color: #484848;
-
 }
-
 
 .d-flex.align-items-start.flex-column
 {
