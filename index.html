@@ -16,20 +16,15 @@
     <link rel="stylesheet" type="text/css" href="style.css">
     <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0-beta.2/css/bootstrap.min.css" integrity="sha384-PsH8R72JQ3SOdhVi3uxftmaW6Vc51MKb0q5P2rRUpPvrszuE4W1povHYgTpBfshb" crossorigin="anonymous">
   </head>
-
-
-	<body>
-
-<!--CATEGORIE BOUTONS DU HAUT-->
-
-  <div class="container">
+  <body>
+	<div class="container ">
   <div class="row">
     <div class="col-sm-6">
-      <nav class="navbar navbar-white bg-white">
-      <a class="navbar-brand" href="#">
-        <img src="img/logo.png" width="64" height="59" alt="">
-      </a>
-</nav>
+     	<nav class="navbar navbar-white bg-white">
+     		<a class="navbar-brand" href="#">
+        		<img src="img/logo.png" width="64" height="59" alt="">
+      		</a>
+		</nav>
     </div>
     <div class="col-sm-6">
       <ul class="nav justify-content-end">
@@ -50,6 +45,9 @@
   </div>
 </div>
 
+
+
+
 <!--GROS TABLEAU AVEC LES TITRES ET LA SEARCHBAR-->
 
 <div class="d-flex align-items-start flex-column">
@@ -63,23 +61,68 @@
 
 <!--SEARCHBAR-->
 
-<table class="searchbar table d-flex p-2">
-    <tr>
-      <th scope="col">
-        <svg class="magnifyingglass" viewBox="0 0 24 24" role="presentation" aria-hidden="true" focusable="false" style="height:24px;width:24px;display:block;fill:#767676"><path d="m10.4 18.2c-4.2-.6-7.2-4.5-6.6-8.8.6-4.2 4.5-7.2 8.8-6.6 4.2.6 7.2 4.5 6.6 8.8-.6 4.2-4.6 7.2-8.8 6.6m12.6 3.8-5-5c1.4-1.4 2.3-3.1 2.6-5.2.7-5.1-2.8-9.7-7.8-10.5-5-.7-9.7 2.8-10.5 7.9-.7 5.1 2.8 9.7 7.8 10.5 2.5.4 4.9-.3 6.7-1.7v.1l5 5c .3.3.8.3 1.1 0s .4-.8.1-1.1" fill-rule="evenodd"></path></svg>
-      </th>
-      <th scope="col">
-        <input class="form-control mr-sm-2 form-control-lg" type="search" placeholder="Essayez &laquo Montréal &raquo" aria-label="Search">
-      </th>
-      <th scope="col">
-        <button class="buttonsearchbar btn btn-light flex-row-reverse" type="submit">Rechercher</button>
-      </th>
-    </tr>
-</table>
+  <div class="searchbar container">
+      <div class="row">
+        <div class="col-sm">
+          <svg class="magnifyingglass" viewBox="0 0 24 24" role="presentation" aria-hidden="true" focusable="false" style="height:24px;width:24px;display:block;fill:#767676"><path d="m10.4 18.2c-4.2-.6-7.2-4.5-6.6-8.8.6-4.2 4.5-7.2 8.8-6.6 4.2.6 7.2 4.5 6.6 8.8-.6 4.2-4.6 7.2-8.8 6.6m12.6 3.8-5-5c1.4-1.4 2.3-3.1 2.6-5.2.7-5.1-2.8-9.7-7.8-10.5-5-.7-9.7 2.8-10.5 7.9-.7 5.1 2.8 9.7 7.8 10.5 2.5.4 4.9-.3 6.7-1.7v.1l5 5c .3.3.8.3 1.1 0s .4-.8.1-1.1" fill-rule="evenodd"></path></svg>
+        </div>
+        <div class="col-sm">
+          <input class="searchzone form-control mr-sm-2 form-control-lg" type="search" placeholder="Essayez &laquo Montréal &raquo" aria-label="Search">
+        </div>
+        <div class="col-sm">
+          <button class="buttonsearchbar btn btn-light flex-row-reverse" type="submit">Rechercher</button>
+        </div>
+      </div>
+  </div>
 
 </div>
 
 <!--EXPLORER AIRBNB-->
+
+<div class="container">
+  <div class="row">
+    <div class="col-sm-1">
+      
+    </div>
+    <div class="col-sm-3">
+    	<div class="Experience rounded">
+	     	<div class="media">
+			  <img class="align-self-center mr-3 rounded-left" src="img/bedroom1.jpg" width="96" height="72">
+			  <div class="media-body">
+			    <h6 class="mt-4">
+			    	<b>Logements</b>
+			    </h6>
+			  </div>
+			</div>
+		</div>
+    </div>
+    <div class="col-sm-3">
+      <div class="Experience rounded">
+	     	<div class="media">
+			  <img class="align-self-center mr-3 rounded-left" src="img/bedroom1.jpg" width="96" height="72">
+			  <div class="media-body">
+			    <h6 class="mt-4">
+			    	<b>Logements</b>
+			    </h6>
+			  </div>
+			</div>
+		</div>
+    </div>
+    <div class="col-sm-3">
+      <div class="Experience rounded">
+	     	<div class="media">
+			  <img class="align-self-center mr-3 rounded-left" src="img/bedroom1.jpg" width="96" height="72">
+			  <div class="media-body">
+			    <h6 class="mt-4">
+			    	<b>Logements</b>
+			    </h6>
+			  </div>
+			</div>
+		</div>
+    </div>
+  </div>
+</div>
+
 
 <!--EXPÉRIENCES-->
 

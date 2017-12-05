@@ -7,6 +7,7 @@ body
 
 .container
 {
+	margin-bottom:  40px!important;
 	max-width: none !important;
 	padding-left: 0 !important;
 }
@@ -24,7 +25,8 @@ body
 	padding-bottom: 0 !important;
 }
 
-.justify-content-end{
+.justify-content-end
+{
 	margin-top: 3%;
 }
 
@@ -51,8 +53,9 @@ body
 }
 
 .maintitle
+{
 	font-family: 'Roboto', sans-serif;
-	color: #FF5A5F ;
+	color: #FF5A5F;
 }
 
 .secondarytitle
@@ -72,8 +75,17 @@ body
 {
 	width: 100%;
 	background-color: transparent;
+	border-top: none !important;
 	box-shadow: 0px 0px 3px grey;
 }
+
+.form-control:focus {
+	color: #484848 !important;
+  	background-color: transparent !important;
+  	border-color: transparent !important;
+  	outline: none !important;
+  	box-shadow: 0 0 0 0rem transparent !important;
+  }
 
 .magnifyingglass
 {
@@ -143,9 +155,16 @@ body
 footer
 {
 	font-family: 'Roboto', sans-serif !important;
+<<<<<<< HEAD
 	margin-left: 10%;
 	margin-right: 5%;
 }
+=======
+	/*margin-left: 20%;
+	margin-right: 20%;*/
+}
+
+>>>>>>> cc0d234144f052a0cf3bae11a8f7d2f02817d11c
 
 .testA
 {
@@ -166,8 +185,26 @@ footer
 	letter-spacing: 0.2px !important;
 	font-size: 14px;
 }
+<<<<<<< HEAD
 
 footer.col-sm p:hover
 {
 	border-bottom: solid 2px #484848;
+=======
+.Experience
+{
+	border: solid 1px rgba(0,0,0,0.1);
+	padding-right: 5px;
+	color: #484848;
+	margin-right: 20%;	
+	box-shadow: 0px 2px 4px 0px rgba(0,0,0,0.06) !important;
+
+}
+
+.col-sm-3
+{
+	padding-right: 0px !important;
+
+
+>>>>>>> cc0d234144f052a0cf3bae11a8f7d2f02817d11c
 }
