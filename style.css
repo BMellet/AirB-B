@@ -150,3 +150,33 @@ body
 /*CATEGORIE EXPLORER AIRBNB*/
 
 /*CATEGORIE FOOTER*/
+
+footer
+{
+	font-family: 'Roboto', sans-serif !important;
+	/*margin-left: 20%;
+	margin-right: 20%;*/
+}
+
+.container
+{
+
+max-width: none;
+}
+
+.testA
+{
+	width: 100%;
+	margin: 5%;
+}
+.testB
+{
+	width: 100%;
+	margin: 5%;
+	margin-top: 8px;
+}
+
+.text-color
+{
+	color: grey;
+}
