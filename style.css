@@ -1,9 +1,74 @@
 body
 {
-	font-family: 'Roboto', sans-serif;
-	overflow-x: hidden;
+  
+  overflow-x: hidden;
+}
+.card
+{
+  display: inline-block!important;
+  vertical-align: top;
+}
+.test
+{
+
+  width: 246px !important;
+  margin-right: 1%!important;
+  display: inline-block;
+
 }
 
+.merde
+{
+  position: relative;
+  margin-left: 5%;
+  margin-right: 15%;
+  overflow-x: hidden;
+}
+
+.putain
+{
+  position: relative;
+  width: 300%
+}
+.bouton 
+{
+position: absolute; 
+height: 40px;
+width: 40px; 
+background: orange; 
+border-radius: 40px; 
+margin: auto; 
+}
+
+.prec
+{
+  left:0;
+  right: 93%;
+  bottom: 75%;
+}
+
+.suivant
+{
+  left: 73.1%;
+  right: 0;
+  bottom: 75%;
+}
+.CardPic
+{
+  width: 246px;
+  height: 164px;
+}
+.merde .CardPic:nth-of-type(1)
+{
+  background: url("img/velo.png") no-repeat center;
+  background-size:cover; 
+}
+
+ .merde .CardPic:nth-of-type(2)
+{
+  background: url("img/canoe.png") no-repeat center;
+  background-size:cover; 
+}
 /*CATEGORIE BOUTONS DU HAUT*/
 
 .navbar-brand
@@ -110,7 +175,8 @@ body
 	white-space: nowrap;
 }
 
-.hero-search-filter {
+.hero-search-filter
+{
 	text-align: left;
 	height: 300px;
 	background-size: cover;
@@ -122,11 +188,13 @@ body
 			align-items: center;
 }
 
-.hero-search-filter-logo {
+.hero-search-filter-logo
+{
   margin-bottom: 2rem;
 }
 
-.hero-search-filter-content {
+.hero-search-filter-content
+{
   display: -webkit-flex;
   display: -ms-flexbox;
   display: flex;
@@ -143,33 +211,39 @@ body
           justify-content: center;
 }
 
-.hero-search-filter-menu {
+.hero-search-filter-menu 
+{
   -webkit-flex-wrap: wrap;
       -ms-flex-wrap: wrap;
           flex-wrap: wrap;
 }
 
-@media screen and (max-width: 39.9375em) {
-  .hero-search-filter-menu li {
+@media screen and (max-width: 39.9375em) 
+{
+  .hero-search-filter-menu li 
+  {
     -webkit-flex-basis: 50%;
         -ms-flex-preferred-size: 50%;
             flex-basis: 50%;
   }
 
-  .hero-search-filter-menu li a {
+  .hero-search-filter-menu li a 
+  {
     -webkit-justify-content: center;
         -ms-flex-pack: center;
             justify-content: center;
   }
 }
 
-.hero-search-filter-menu a {
+.hero-search-filter-menu a 
+{
   color: #fefefe;
   font-weight: bold;
 }
 
 
-.hero-search-filter-form {
+.hero-search-filter-form
+{
   display: -webkit-flex;
   display: -ms-flexbox;
   display: flex;
@@ -182,12 +256,14 @@ body
           align-items: center;
 }
 
-.hero-search-filter-form .divider {
+.hero-search-filter-form .divider
+{
   background-color: #cacaca;
   width: 1px;
 }
 
-.hero-search-filter-form label {
+.hero-search-filter-form label
+{
   margin-right: 0.75rem;
   margin-left: 0.75rem;
   color: #8a8a8a;
@@ -195,17 +271,21 @@ body
 }
 
 .hero-search-filter-form input,
-.hero-search-filter-form .button {
+.hero-search-filter-form .button
+{
   margin-bottom: 0;
 }
 
-@media screen and (max-width: 39.9375em) {
-  .hero-search-filter-form {
+@media screen and (max-width: 39.9375em)
+{
+  .hero-search-filter-form 
+  {
     width: 95%;
   }
 }
 
-.hero-search-filter-form-near {
+.hero-search-filter-form-near 
+{
 	float: left;
 	font-family: 'Roboto', sans-serif;
 	font-size: 19px;
@@ -227,7 +307,8 @@ body
 	border: none !important;
 }
 
-.form-control:focus {
+.form-control:focus 
+{
 	color: #484848 !important;
   	background-color: transparent !important;
   	border-color: transparent !important;
