@@ -1,0 +1,256 @@
+body
+{
+	font-family: 'Roboto', sans-serif;
+	overflow-x: hidden;
+}
+
+/*CATEGORIE BOUTONS DU HAUT*/
+
+.navbar-brand
+{
+	float: left;
+}
+
+.hover-underline-menu {
+  width: 40%;
+  float: right;
+}
+
+.hover-underline-menu .menu {
+  background-color: transparent;
+}
+
+.hover-underline-menu .menu a {
+  color: black;
+  padding: 1.2rem 1.5rem;
+  float: right;
+}
+
+.hover-underline-menu .menu .underline-from-center {
+  position: relative;
+}
+
+.hover-underline-menu .menu .underline-from-center::after {
+  content: "";
+  position: absolute;
+  top: calc(100% - 0.125rem);
+  border-bottom: 0.125rem solid black;
+  left: 50%;
+  right: 50%;
+  transition: all 0.5s ease;
+}
+
+.hover-underline-menu .menu .underline-from-center:hover::after {
+  left: 0;
+  right: 0;
+  transition: all 0.5s ease;
+}
+
+@media (max-width:1200px) { 
+  #bottom_nav { display: none}
+  .header { display:none; }
+}
+/*CATEGORIE TITRES*/
+
+.title
+{
+	font-size: calc(0.5vw + 42px);
+	line-height: calc(0.7vw + 48px);
+	margin-bottom: 20px;
+	text-align: left;
+}
+
+.maintitle
+{
+	font-family: 'Roboto', sans-serif;
+	color: #FF5A5F;
+}
+
+.secondarytitle
+{
+	color: #484848;
+	width: 80%;
+}
+
+/*CATEGORIE SEARCHBAR*/
+
+.searchbar
+{
+	width: 70%;
+	background-color: transparent;
+	border-top: none !important;
+	box-shadow: 0px 0px 3px grey;
+}
+
+
+
+.buttonsearchbar
+{
+	float:left;
+	width: 140px;
+	height: 48px;
+	background-color: #FF5A5F !important;
+	border-radius: 4px;
+	border: 0px;
+	margin-left: 16px;
+	float:right;
+	font-size: 19px;
+	line-height: 15px;
+	font-family: 'Roboto', sans-serif;
+	padding-top: 0px;
+	padding-bottom: 0px;
+	padding-left: 18px;
+	color: #FFFFFF!important;
+	margin: 12px;
+	margin-left: 24px;
+	margin-top: 12px;
+	margin-bottom: 12px;
+	text-align: center;
+	display: inline-block;
+	white-space: nowrap;
+}
+
+.hero-search-filter {
+	text-align: left;
+	height: 300px;
+	background-size: cover;
+	display: -webkit-flex;
+	display: -ms-flexbox;
+	display: flex;
+	-webkit-align-items: center;
+		-ms-flex-align: center;
+			align-items: center;
+}
+
+.hero-search-filter-logo {
+  margin-bottom: 2rem;
+}
+
+.hero-search-filter-content {
+  display: -webkit-flex;
+  display: -ms-flexbox;
+  display: flex;
+  width: 100%;
+  height: 300px;
+  -webkit-flex-direction: column;
+      -ms-flex-direction: column;
+          flex-direction: column;
+  -webkit-align-items: center;
+      -ms-flex-align: center;
+          align-items: center;
+  -webkit-justify-content: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+}
+
+.hero-search-filter-menu {
+  -webkit-flex-wrap: wrap;
+      -ms-flex-wrap: wrap;
+          flex-wrap: wrap;
+}
+
+@media screen and (max-width: 39.9375em) {
+  .hero-search-filter-menu li {
+    -webkit-flex-basis: 50%;
+        -ms-flex-preferred-size: 50%;
+            flex-basis: 50%;
+  }
+
+  .hero-search-filter-menu li a {
+    -webkit-justify-content: center;
+        -ms-flex-pack: center;
+            justify-content: center;
+  }
+}
+
+.hero-search-filter-menu a {
+  color: #fefefe;
+  font-weight: bold;
+}
+
+
+.hero-search-filter-form {
+  display: -webkit-flex;
+  display: -ms-flexbox;
+  display: flex;
+  width: 90%;
+  background: #fefefe;
+  padding: 0.25rem;
+  border-radius: 5px;
+  -webkit-align-items: center;
+      -ms-flex-align: center;
+          align-items: center;
+}
+
+.hero-search-filter-form .divider {
+  background-color: #cacaca;
+  width: 1px;
+}
+
+.hero-search-filter-form label {
+  margin-right: 0.75rem;
+  margin-left: 0.75rem;
+  color: #8a8a8a;
+  font-weight: bold;
+}
+
+.hero-search-filter-form input,
+.hero-search-filter-form .button {
+  margin-bottom: 0;
+}
+
+@media screen and (max-width: 39.9375em) {
+  .hero-search-filter-form {
+    width: 95%;
+  }
+}
+
+.hero-search-filter-form-near {
+	float: left;
+	font-family: 'Roboto', sans-serif;
+	font-size: 19px;
+	font-weight: normal;
+	width: 150% !important;
+	padding: 11px;
+	padding-top: 11px;
+	padding-bottom: 11px;	
+	margin-top: 12px;
+	margin-bottom: 12px;
+	margin-left: 15%;
+	line-height: 24px;
+	background-color: transparent;
+	border-color: transparent;
+	border: 0px;
+	text-align: left;
+	white-space: nowrap;
+	color: #484848;
+	border: none !important;
+}
+
+.form-control:focus {
+	color: #484848 !important;
+  	background-color: transparent !important;
+  	border-color: transparent !important;
+  	outline: none !important;
+  	box-shadow: 0 0 0 0rem transparent !important;
+  }
+
+.magnifyingglass
+{
+	float:left;
+	fill: rgb(118, 118, 118);
+	margin-top: 20px;
+	margin-bottom: 20px;
+	margin-left: 20px;
+	margin-right: 20px;
+}
+
+
+
+/*CATEGORIE EXPLORER AIRBNB*/
+
+/*EXPERIENCES*/
+
+/*CATEGORIE FOOTER*/
+
+/*CATEGORIE SECOND FOOTER*/
