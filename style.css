@@ -1,3 +1,9 @@
+body
+{
+  
+  overflow-x: hidden;
+}
+
 .docs-example-orbit-slide {
   padding: 2rem 4rem;
   color: $white;
@@ -22,14 +28,39 @@
     background: lightseagreen;
 }
 
+.card
+{
+  display: inline-block!important;
+  width: 246px !important;
+}
+
 .test
 {
-  display: inline-block;
-  margin-right: 10%;
-}
-.test.un
-{
-  margin-right: 0%
+
+  width: 246px !important;
+  margin-right: 2%!important;
 
 }
+
+
+
+
+.contenant
+{
+  overflow-x: hidden;
+}
+
+.bouton 
+{
+position: absolute; 
+height: 40px;
+width: 40px; 
+background: orange; 
+border-radius: 40px; 
+margin: auto; 
+left:0;
+right: 50;
+bottom: -50;
+}
+
 
