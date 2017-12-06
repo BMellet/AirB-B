@@ -250,7 +250,104 @@ body
 
 /*CATEGORIE EXPLORER AIRBNB*/
 
-/*EXPERIENCES*/
+/*EXPÉRIENCES*/
+
+/*DESTINATIONS À LA UNE*/
+
+.all-destinations-cntnr
+{
+	display: inline-block;
+	margin-left: 15%;
+	margin-top: 20px;
+}
+
+.destination-cntnr
+{
+	display: inline-block;
+	vertical-align: top;
+	white-space: normal;
+	height: 270px;
+	width: 150px;
+	margin-right: 10px; 
+}
+
+.cntnr-generic
+{
+	height: 100%;
+	width: 100%;
+}
+
+.img-cntnr
+{
+	height: 85%;
+	width: 100%;
+}
+.img-generic-destination
+{
+	background-position: center center;
+	background-repeat: no-repeat;
+	background-size: cover;
+	height: 100%;
+	width: 100%;
+}
+
+.img-paris
+{
+	background-image: url("img/paris.jpg");
+}
+
+.img-sanfransisco
+{
+	background-image: url("img/sanfransisco.jpg");
+}
+
+.img-newyork
+{
+	background-image: url("img/newyork.jpg");
+}
+
+.img-cahors
+{
+	background-image: url("img/cahors.jpg");
+}
+
+.img-tokyo
+{
+	background-image: url("img/newyork.jpg");
+    -moz-transform: scaleX(-1);
+    -o-transform: scaleX(-1);
+    -webkit-transform: scaleX(-1);
+    transform: scaleX(-1);
+    -moz-transform: scaleY(-1);
+    -o-transform: scaleY(-1);
+    -webkit-transform: scaleY(-1);
+    transform: scaleY(-1);
+    filter: FlipH;
+    -ms-filter: "FlipH";
+}
+
+.text-cntnr
+{
+	height: 15%;
+	width: 100%;
+	margin-top: 8px;
+	text-align: bottom;
+}
+
+.text-generic-destination
+{
+	margin: 0px;
+	word-wrap: break-word;
+	font-family: 'Roboto', sans-serif;
+	font-size: 15px;
+	line-height: 18px;
+	letter-spacing: 0.2px;
+	padding-top: 0px;
+	padding-bottom: 0px;
+	color: #484848;
+	font-weight: 700;
+	display: inline;
+}
 
 /*CATEGORIE FOOTER*/
 
