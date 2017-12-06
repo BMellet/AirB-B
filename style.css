@@ -82,10 +82,6 @@ body
 	border-top: none !important;
 	box-shadow: 0px 0px 3px grey;
 }
-.searchbar.row
-{
-	position:relative;
-}
 
 .searchbar.col-sm
  {
@@ -161,11 +157,16 @@ body
 
 /*CATEGORIE EXPLORER AIRBNB*/
 
+.small-8.cell
+{
+
+}
+
 /*CATEGORIE FOOTER*/
 
 footer
 {
-	font-family: 'Roboto', sans-serif !important;
+	font-family: 'Roboto', sans-serif, !important;
 	border-top: 1px solid #D6D9CE;
 	border-width: 100%;
 	
