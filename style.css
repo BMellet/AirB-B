@@ -1,13 +1,14 @@
 body
-{
-  
+{  
   overflow-x: hidden;
 }
 .card
 {
   display: inline-block!important;
   vertical-align: top;
+  border: none !important;
 }
+
 .test
 {
 
@@ -70,6 +71,8 @@ z-index: 1000;
   background: url("img/canoe.png") no-repeat center;
   background-size:cover; 
 }
+
+
 /*CATEGORIE BOUTONS DU HAUT*/
 
 .navbar-brand
